@@ -7,6 +7,18 @@ module.exports = {
             "photo": "https://kc0nug.github.io/Bootstrap-Portfolio/assets/images/Chuck06012017.jpg",
             "scores":[ 5, 1, 4, 4, 5, 1, 2, 5, 4, 1]
         },
+        {
+            "name": "Ones",
+            "photo": "http://via.placeholder.com/350x150",
+            "scores":[ 1, 1, 1, 1, 1, 1, 1, 1, 1, 1]   
+
+        },
+        {
+            "name": "Twos",
+            "photo": "http://via.placeholder.com/350x150",
+            "scores":[ 2, 2, 2, 2, 2, 2, 2, 2, 2, 2]   
+
+        },
     ],
 
     findBestFriend : function(myself = this.friends[0], friends = this.friends) {
